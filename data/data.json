@@ -1,0 +1,39 @@
+{
+ "barang": [
+  {
+   "id": 1,
+   "nama": "gelas",
+   "harga": 10000,
+   "stok": 30
+  },
+  {
+   "id": 2,
+   "nama": "piring",
+   "harga": 50000,
+   "stok": 50
+  },
+  {
+   "id": 3,
+   "nama": "buku",
+   "harga": 20000,
+   "stok": 20
+  }
+ ],
+ "Transaction": [
+  {
+   "Idtransaksi": 1,
+   "Waktu": "2026-11-02T16:15:09.995986331+07:00",
+   "Items": [
+    {
+     "IDbarang": 2,
+     "Nama": "piring",
+     "HargaJual": 50000,
+     "Jumlah": 20
+    }
+   ],
+   "Total": 1000000
+  }
+ ],
+ "NewID": 4,
+ "NewIDtransaksi": 2
+}
